@@ -1,0 +1,128 @@
+﻿Build started 8/7/2014 10:24:15 PM.
+     1>Project "C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\ProgMesh\ProgMesh.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\Release\".
+       InitializeBuildStatus:
+         Creating "Release\ProgMesh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt modelguts.cpp progmesh.cpp vector.cpp winmain.cpp
+         modelguts.cpp
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+     1>modelguts.cpp(257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>modelguts.cpp(260): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+                 with
+                 [
+                     Type=Vector
+                 ]
+                 c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42) : while compiling class template member function 'List<Type>::~List(void)'
+                 with
+                 [
+                     Type=Vector
+                 ]
+                 modelguts.cpp(29) : see reference to class template instantiation 'List<Type>' being compiled
+                 with
+                 [
+                     Type=Vector
+                 ]
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+                 with
+                 [
+                     Type=tridata
+                 ]
+                 c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42) : while compiling class template member function 'List<Type>::~List(void)'
+                 with
+                 [
+                     Type=tridata
+                 ]
+                 modelguts.cpp(30) : see reference to class template instantiation 'List<Type>' being compiled
+                 with
+                 [
+                     Type=tridata
+                 ]
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+                 with
+                 [
+                     Type=int
+                 ]
+                 c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42) : while compiling class template member function 'List<Type>::~List(void)'
+                 with
+                 [
+                     Type=int
+                 ]
+                 modelguts.cpp(31) : see reference to class template instantiation 'List<Type>' being compiled
+                 with
+                 [
+                     Type=int
+                 ]
+         progmesh.cpp
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+                 with
+                 [
+                     Type=Vertex *
+                 ]
+                 c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42) : while compiling class template member function 'List<Type>::~List(void)'
+                 with
+                 [
+                     Type=Vertex *
+                 ]
+                 progmesh.cpp(39) : see reference to class template instantiation 'List<Type>' being compiled
+                 with
+                 [
+                     Type=Vertex *
+                 ]
+     1>c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42): warning C4812: obsolete declaration style: please use 'List<Type>::~List' instead
+                 with
+                 [
+                     Type=Triangle *
+                 ]
+                 c:\users\antonio\desktop\portfolio_glui\progmesh\progmesh\list.h(42) : while compiling class template member function 'List<Type>::~List(void)'
+                 with
+                 [
+                     Type=Triangle *
+                 ]
+                 progmesh.cpp(40) : see reference to class template instantiation 'List<Type>' being compiled
+                 with
+                 [
+                     Type=Triangle *
+                 ]
+         vector.cpp
+         winmain.cpp
+     1>winmain.cpp(272): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\Release\ProgMesh.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ProgMesh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\Release\ProgMesh.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\Release\ProgMesh.lib" /MACHINE:X86 Release\modelguts.obj
+         Release\progmesh.obj
+         Release\vector.obj
+         Release\winmain.obj
+     1>glui32.lib(glui_scrollbar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_panel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_translation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_column.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_rotation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_control.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_button.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_spinner.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_checkbox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_statictext.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_rollout.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_string.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_bitmaps.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_window.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_mouse_iaction.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(algebra3.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(arcball.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(glui_edittext.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>glui32.lib(quaternion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in modelguts.obj
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\Release\ProgMesh.exe : fatal error LNK1319: 21 mismatches detected
+     1>Done Building Project "C:\Users\antonio\Desktop\portfolio_glui\ProgMesh\ProgMesh\ProgMesh.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.05
