@@ -1,5 +1,7 @@
 ## OpenGL tutorial UI for progressive mesh reduction with edge collapse, demo based on progressive mesh reduction code by Stan Melax##
 
+Mesh reduction is performed to accelerate render and save memory when lowering the level of detail in a model is considered acceptable. For example, the model may be far from the observer, making rendering at its highest possible level of detail wasteful.  
+
 A "progressive mesh" reduces a model's complexity by repeated use of an edge collapse algorithm,  [this paper by Hoppe](http://research.microsoft.com/en-us/um/people/hoppe/pm.pdf) originally presented the concept. 
 
 [Melax's method](http://dev.gameres.com/Program/Visual/3D/PolygonReduction.pdf) finds and collapses the edge that when eliminated affects the model's topology the least. Melax defines a criterion that eliminates the edge with highest coplanarity in the model. 
