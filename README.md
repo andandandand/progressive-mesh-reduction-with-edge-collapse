@@ -1,6 +1,6 @@
 ## OpenGL tutorial UI for progressive mesh reduction with edge collapse, demo based on code by Stan Melax, published in 1998 ##
 
-A "progressive mesh" reduces the model's complexity by repeated use of an edge collapse algorithm,  [this paper by Hoppe](http://research.microsoft.com/en-us/um/people/hoppe/pm.pdf) originally presented the concept. 
+A "progressive mesh" reduces a model's complexity by repeated use of an edge collapse algorithm,  [this paper by Hoppe](http://research.microsoft.com/en-us/um/people/hoppe/pm.pdf) originally presented the concept. 
 
 [Melax's method](http://dev.gameres.com/Program/Visual/3D/PolygonReduction.pdf) finds and collapses the edge that when eliminated affects the model's topology the least.
 
