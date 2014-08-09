@@ -1,12 +1,24 @@
-## OpenGL tutorial UI for progressive mesh reduction with edge collapse, demo based on code by Stan Melax, published in 1998 ##
+## OpenGL tutorial UI for progressive mesh reduction with edge collapse, demo based on progressive mesh reduction code by Stan Melax##
 
 A "progressive mesh" reduces a model's complexity by repeated use of an edge collapse algorithm,  [this paper by Hoppe](http://research.microsoft.com/en-us/um/people/hoppe/pm.pdf) originally presented the concept. 
 
-[Melax's method](http://dev.gameres.com/Program/Visual/3D/PolygonReduction.pdf) finds and collapses the edge that when eliminated affects the model's topology the least.
+[Melax's method](http://dev.gameres.com/Program/Visual/3D/PolygonReduction.pdf) finds and collapses the edge that when eliminated affects the model's topology the least. Melax defines a criterion that eliminates the edge with highest coplanarity in the model. 
 
-[Demo #1](https://www.youtube.com/watch?v=Hjkfr_ujwdo)
+![tiger_full_956.JPG](https://bitbucket.org/repo/krqkKE/images/1929773818-tiger_full_956.JPG)
+*Original model with 956 vertices*
 
-[Demo #2](https://www.youtube.com/watch?v=mmU1BLuisp8)
+![tiger_wire_dense.JPG](https://bitbucket.org/repo/krqkKE/images/1474175001-tiger_wire_dense.JPG)
+*Wireframe of original model with 956 vertices*
+
+![tiger_wire.JPG](https://bitbucket.org/repo/krqkKE/images/1861305274-tiger_wire.JPG)
+*Wireframe of reduced model of 207 vertices*
+
+![tiger_207.JPG](https://bitbucket.org/repo/krqkKE/images/4052600667-tiger_207.JPG)
+*Reduced model of 207 vertices*
+
+[Demo video #1](https://www.youtube.com/watch?v=Hjkfr_ujwdo)
+
+[Demo video #2](https://www.youtube.com/watch?v=mmU1BLuisp8)
 
 A tutorial video showing how to install GLUI in Visual Studio 2010 can be seen [here](https://www.youtube.com/watch?v=nmMY-5-GqJE).
 
