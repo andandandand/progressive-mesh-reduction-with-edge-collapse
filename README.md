@@ -1,4 +1,4 @@
-##Progressive Mesh Reduction in OpenGL 2.1 - A Short Tutorial##
+# Progressive Mesh Reduction in OpenGL 2.1 - A Short Tutorial
 
 Mesh reduction is performed to accelerate render and save memory when lowering the level of detail in a model is considered acceptable. For example, the model may be far from the observer, making rendering at its highest possible level of detail wasteful. For 3D printing, mesh reduction can reduce the amount of material that's required to produce the object and eliminate details that a particular printer may have no capacity to produce.  
 
